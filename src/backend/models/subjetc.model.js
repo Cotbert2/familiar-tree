@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const familiarSchema = new mongoose.Schema({
-    name : { type: String, required: true },
+    fullname : { type: String, required: true },
     bithdate : { type: Date, required: true },
     deathdate : { type: Date, required: false },
     birthplace : { type: String, required: true },
