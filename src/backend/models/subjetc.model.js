@@ -9,3 +9,5 @@ const familiarSchema = new mongoose.Schema({
     fatherId : { type: String, required: false },
     motherId : { type: String, required: false },
 });
+
+export default familiarSchema;
